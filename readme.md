@@ -25,9 +25,9 @@ The complete collection of (consumer) Raspberry Pi models consist of:
 [Raspberry Pi 4, Model B](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/
 
 ## OS Images
-
+Parrot os is used in this project
 [Kali Linux](https://www.offensive-security.com/kali-linux-arm-images/) - Penetration Testing & Ethical Hacking Linux distro for ARM devices.
-[Parrot] (https://parrotsec.org/download/) - Used in our project for more Security purposes
+[Parrot] (https://parrotsec.org/download/)
 
 
 ## Tools
