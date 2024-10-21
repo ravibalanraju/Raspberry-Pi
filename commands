@@ -1,0 +1,35 @@
+What are the commands that are used
+
+
+
+
+## Command line list
+
+$sudo raspi-config
+raspi-config provides a simple and convenient command line interface to manage the configuration of the Raspberry Pi system, allowing users to easily customize and optimize their system settings.
+Then move on to Raspberry-Pi Configurtion Tool and check for updates  
+
+Check while your Rapberry-pi is connected to internet or not 
+Once it is connected to the internet then type the command as
+
+$sudo apt update 
+This command is used to check if there are any updates available to the current OS (Parrot os )
+If there is some files then it asks some sort of space that is required to update if it is ok to the user or not 
+To confirm press Y or else press N
+
+$sudo apt upgrade
+This command helps to upgrade the update pakages which are all listed above
+
+$sudo apt install dnsmasq hostapd 
+
+The command dnsmasq and hostapd are typically used together to create a wireless access point (AP) on a Linux system
+dnsmasq: Manages DNS and DHCP services, handling IP address allocation and local name resolution for devices connecting to the access point.
+hostapd (Host Access Point Daemon): Enables the Linux machine’s Wi-Fi interface to function as a wireless access point (AP), allowing other devices to connect wirelessly.
+
+To ensure that the smasq and stapd are upgraded to the latest version
+
+$sudo nano /etc/dhcpcd.config 
+
+CHeck the IP address was given correctly so that the connection that we are going to go on is secure
+
+Next step is to move on the file to the desired location
