@@ -32,4 +32,17 @@ $sudo nano /etc/dhcpcd.config
 
 CHeck the IP address was given correctly so that the connection that we are going to go on is secure
 
-Next step is to move on the file to the desired location
+Next step is to move on the masq file to the primary location
+
+$sudo nano /etc/dnsmasq.config
+paste the following lines in the popped box
+
+interface=eth0 ( or your network that you've connected)
+dhcp-range= ip_address
+Save the file and exit
+
+$sudo nano /etc/hostapd/hostapd.config
+
+To check that each and everything that we are given and connected was correct 
+$sudo nano /etc/default/hostapd.config
+add daemon_config="/etc/hostpad/hostpad.conf"
